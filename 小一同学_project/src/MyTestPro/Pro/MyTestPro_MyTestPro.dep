@@ -1,0 +1,965 @@
+Dependencies for Project 'MyTestPro', Target 'MyTestPro': (DO NOT MODIFY !)
+F (.\startup_stm32f10x_hd.s)(0x5DBBF7F0)(--cpu Cortex-M3 -g --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"--list .\startup_stm32f10x_hd.lst --xref -o ..\output\startup_stm32f10x_hd.o --depend ..\output\startup_stm32f10x_hd.d)
+F (..\Src\main.c)(0x5DBE6CB2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"-DSTM32F10X_HD_VL-o ..\output\main.o --omf_browse ..\output\main.crf --depend ..\output\main.d)
+I (..\Src\My_Init.h)(0x5DBA8ED1)
+I (..\Src\System_Init.h)(0x5D7F1186)
+I (..\Src\stm32f10x.h)(0x5D73A835)
+I (C:\Program Files\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Program Files\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Program Files\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\Src\LED.h)(0x5DBD361E)
+I (..\Src\SysTick.h)(0x5D77BCE2)
+I (..\Src\system.h)(0x5D85E4E6)
+I (..\Src\tftlcd.h)(0x5DBB922D)
+I (..\Src\IncludeAll.h)(0x5D7F1186)
+I (..\Src\ascii.h)(0x5CD54682)
+I (..\Src\stm32f10x_rcc.h)(0x5C973A2D)
+I (..\Src\stm32f10x_gpio.h)(0x559784E2)
+I (..\Src\stm32f10x_fsmc.h)(0x5C973A0F)
+I (..\Src\font.h)(0x5DAF2394)
+I (C:\Program Files\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (..\Src\font_show.h)(0x5D33041E)
+I (..\Src\Buzzer.h)(0x5DB9748D)
+I (..\Src\touch.h)(0x5D9DA4EF)
+I (..\Src\Rrtc.h)(0x5DBD7F2F)
+I (..\Src\irq.h)(0x5D9AFC93)
+I (..\Src\Game_Snake.h)(0x5D9B73F5)
+I (..\Src\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\Src\Boot_test.h)(0x5DAED96E)
+I (..\Src\Time_IRQ.h)(0x5DB4152D)
+I (..\Src\dht11.h)(0x5DAE8951)
+I (..\Src\usart1.h)(0x5DBDCAA4)
+I (..\Src\flash.h)(0x5D1324E5)
+I (..\Src\malloc.h)(0x5CA959D0)
+I (..\Src\music.h)(0x5DBC3319)
+I (..\Src\sd.h)(0x5D1320AD)
+I (..\Src\ff.h)(0x5CC2F89C)
+I (..\Src\integer.h)(0x55EA74C2)
+I (..\Src\ffconf.h)(0x5D131F1D)
+I (..\Src\fatfs_app.h)(0x57F72650)
+I (..\Src\mp3player.h)(0x583CFE18)
+I (..\Src\My_Function.h)(0x5DBD7CAA)
+I (..\Src\My_view.h)(0x5DBB8456)
+I (..\Src\picture.h)(0x5DBC3059)
+I (..\Src\KeyBoard.h)(0x5DBCFD6C)
+I (C:\Program Files\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (..\Src\My_Music.h)(0x5DBE3B80)
+I (..\Src\colock.h)(0x5DBCFDF1)
+F (..\Src\LED.c)(0x5DBD361E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"-DSTM32F10X_HD_VL-o ..\output\led.o --omf_browse ..\output\led.crf --depend ..\output\led.d)
+I (..\Src\LED.h)(0x5DBD361E)
+I (..\Src\stm32f10x.h)(0x5D73A835)
+I (C:\Program Files\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Program Files\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Program Files\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\Src\SysTick.h)(0x5D77BCE2)
+I (..\Src\system.h)(0x5D85E4E6)
+I (..\Src\tftlcd.h)(0x5DBB922D)
+I (..\Src\IncludeAll.h)(0x5D7F1186)
+I (..\Src\ascii.h)(0x5CD54682)
+I (..\Src\stm32f10x_rcc.h)(0x5C973A2D)
+I (..\Src\stm32f10x_gpio.h)(0x559784E2)
+I (..\Src\stm32f10x_fsmc.h)(0x5C973A0F)
+I (..\Src\font.h)(0x5DAF2394)
+I (C:\Program Files\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (..\Src\font_show.h)(0x5D33041E)
+F (..\Src\LED.h)(0x5DBD361E)()
+F (..\Src\Buzzer.c)(0x5DBA53F7)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"-DSTM32F10X_HD_VL-o ..\output\buzzer.o --omf_browse ..\output\buzzer.crf --depend ..\output\buzzer.d)
+I (..\Src\Buzzer.h)(0x5DB9748D)
+I (..\Src\stm32f10x.h)(0x5D73A835)
+I (C:\Program Files\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Program Files\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Program Files\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\Src\SysTick.h)(0x5D77BCE2)
+I (..\Src\system.h)(0x5D85E4E6)
+F (..\Src\Buzzer.h)(0x5DB9748D)()
+F (..\Src\IncludeAll.h)(0x5D7F1186)()
+F (..\Src\Game_Snake.h)(0x5D9B73F5)()
+F (..\Src\KeyBoard.c)(0x5DBE6EA1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"-DSTM32F10X_HD_VL-o ..\output\keyboard.o --omf_browse ..\output\keyboard.crf --depend ..\output\keyboard.d)
+I (..\Src\KeyBoard.h)(0x5DBCFD6C)
+I (..\Src\tftlcd.h)(0x5DBB922D)
+I (..\Src\IncludeAll.h)(0x5D7F1186)
+I (..\Src\stm32f10x.h)(0x5D73A835)
+I (C:\Program Files\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Program Files\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Program Files\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\Src\system.h)(0x5D85E4E6)
+I (..\Src\Systick.h)(0x5D77BCE2)
+I (..\Src\ascii.h)(0x5CD54682)
+I (..\Src\stm32f10x_rcc.h)(0x5C973A2D)
+I (..\Src\stm32f10x_gpio.h)(0x559784E2)
+I (..\Src\stm32f10x_fsmc.h)(0x5C973A0F)
+I (..\Src\font.h)(0x5DAF2394)
+I (C:\Program Files\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (..\Src\font_show.h)(0x5D33041E)
+I (..\Src\touch.h)(0x5D9DA4EF)
+I (C:\Program Files\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (..\Src\picture.h)(0x5DBC3059)
+I (..\Src\My_Music.h)(0x5DBE3B80)
+I (..\Src\My_view.h)(0x5DBB8456)
+I (..\Src\Rrtc.h)(0x5DBD7F2F)
+I (..\Src\irq.h)(0x5D9AFC93)
+I (..\Src\Game_Snake.h)(0x5D9B73F5)
+I (..\Src\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\Src\colock.h)(0x5DBCFDF1)
+I (..\Src\Time_IRQ.h)(0x5DB4152D)
+I (..\Src\LED.h)(0x5DBD361E)
+I (..\Src\Buzzer.h)(0x5DB9748D)
+I (..\Src\My_Function.h)(0x5DBD7CAA)
+I (..\Src\My_Init.h)(0x5DBA8ED1)
+I (..\Src\System_Init.h)(0x5D7F1186)
+I (..\Src\Boot_test.h)(0x5DAED96E)
+I (..\Src\dht11.h)(0x5DAE8951)
+I (..\Src\usart1.h)(0x5DBDCAA4)
+I (..\Src\flash.h)(0x5D1324E5)
+I (..\Src\malloc.h)(0x5CA959D0)
+I (..\Src\music.h)(0x5DBC3319)
+I (..\Src\sd.h)(0x5D1320AD)
+I (..\Src\ff.h)(0x5CC2F89C)
+I (..\Src\integer.h)(0x55EA74C2)
+I (..\Src\ffconf.h)(0x5D131F1D)
+I (..\Src\fatfs_app.h)(0x57F72650)
+I (..\Src\mp3player.h)(0x583CFE18)
+F (..\Src\KeyBoard.h)(0x5DBCFD6C)()
+F (..\Src\My_view.c)(0x5DBCF675)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"-DSTM32F10X_HD_VL-o ..\output\my_view.o --omf_browse ..\output\my_view.crf --depend ..\output\my_view.d)
+I (..\Src\My_view.h)(0x5DBB8456)
+I (..\Src\tftlcd.h)(0x5DBB922D)
+I (..\Src\IncludeAll.h)(0x5D7F1186)
+I (..\Src\stm32f10x.h)(0x5D73A835)
+I (C:\Program Files\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Program Files\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Program Files\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\Src\system.h)(0x5D85E4E6)
+I (..\Src\Systick.h)(0x5D77BCE2)
+I (..\Src\ascii.h)(0x5CD54682)
+I (..\Src\stm32f10x_rcc.h)(0x5C973A2D)
+I (..\Src\stm32f10x_gpio.h)(0x559784E2)
+I (..\Src\stm32f10x_fsmc.h)(0x5C973A0F)
+I (..\Src\font.h)(0x5DAF2394)
+I (C:\Program Files\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (..\Src\font_show.h)(0x5D33041E)
+I (..\Src\picture.h)(0x5DBC3059)
+I (..\Src\KeyBoard.h)(0x5DBCFD6C)
+I (..\Src\touch.h)(0x5D9DA4EF)
+I (C:\Program Files\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (..\Src\My_Music.h)(0x5DBE3B80)
+I (..\Src\Time_IRQ.h)(0x5DB4152D)
+I (..\Src\Irq.h)(0x5D9AFC93)
+I (..\Src\Game_Snake.h)(0x5D9B73F5)
+I (..\Src\LED.h)(0x5DBD361E)
+I (..\Src\Rrtc.h)(0x5DBD7F2F)
+I (..\Src\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\Src\My_Function.h)(0x5DBD7CAA)
+I (..\Src\colock.h)(0x5DBCFDF1)
+I (..\Src\Buzzer.h)(0x5DB9748D)
+I (..\Src\My_Init.h)(0x5DBA8ED1)
+I (..\Src\System_Init.h)(0x5D7F1186)
+I (..\Src\Boot_test.h)(0x5DAED96E)
+I (..\Src\dht11.h)(0x5DAE8951)
+I (..\Src\usart1.h)(0x5DBDCAA4)
+I (..\Src\flash.h)(0x5D1324E5)
+I (..\Src\malloc.h)(0x5CA959D0)
+I (..\Src\music.h)(0x5DBC3319)
+I (..\Src\sd.h)(0x5D1320AD)
+I (..\Src\ff.h)(0x5CC2F89C)
+I (..\Src\integer.h)(0x55EA74C2)
+I (..\Src\ffconf.h)(0x5D131F1D)
+I (..\Src\fatfs_app.h)(0x57F72650)
+I (..\Src\mp3player.h)(0x583CFE18)
+F (..\Src\My_view.h)(0x5DBB8456)()
+F (..\Src\Boot_test.c)(0x5DB7C0B3)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"-DSTM32F10X_HD_VL-o ..\output\boot_test.o --omf_browse ..\output\boot_test.crf --depend ..\output\boot_test.d)
+I (..\Src\Boot_test.h)(0x5DAED96E)
+I (..\Src\tftlcd.h)(0x5DBB922D)
+I (..\Src\IncludeAll.h)(0x5D7F1186)
+I (..\Src\stm32f10x.h)(0x5D73A835)
+I (C:\Program Files\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Program Files\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Program Files\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\Src\system.h)(0x5D85E4E6)
+I (..\Src\Systick.h)(0x5D77BCE2)
+I (..\Src\ascii.h)(0x5CD54682)
+I (..\Src\stm32f10x_rcc.h)(0x5C973A2D)
+I (..\Src\stm32f10x_gpio.h)(0x559784E2)
+I (..\Src\stm32f10x_fsmc.h)(0x5C973A0F)
+I (..\Src\font.h)(0x5DAF2394)
+I (C:\Program Files\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (..\Src\font_show.h)(0x5D33041E)
+I (..\Src\System_Init.h)(0x5D7F1186)
+I (..\Src\Buzzer.h)(0x5DB9748D)
+F (..\Src\Boot_test.h)(0x5DAED96E)()
+F (..\Src\My_Init.c)(0x5DBE6CB2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"-DSTM32F10X_HD_VL-o ..\output\my_init.o --omf_browse ..\output\my_init.crf --depend ..\output\my_init.d)
+I (..\Src\My_Init.h)(0x5DBA8ED1)
+I (..\Src\System_Init.h)(0x5D7F1186)
+I (..\Src\stm32f10x.h)(0x5D73A835)
+I (C:\Program Files\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Program Files\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Program Files\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\Src\LED.h)(0x5DBD361E)
+I (..\Src\SysTick.h)(0x5D77BCE2)
+I (..\Src\system.h)(0x5D85E4E6)
+I (..\Src\tftlcd.h)(0x5DBB922D)
+I (..\Src\IncludeAll.h)(0x5D7F1186)
+I (..\Src\ascii.h)(0x5CD54682)
+I (..\Src\stm32f10x_rcc.h)(0x5C973A2D)
+I (..\Src\stm32f10x_gpio.h)(0x559784E2)
+I (..\Src\stm32f10x_fsmc.h)(0x5C973A0F)
+I (..\Src\font.h)(0x5DAF2394)
+I (C:\Program Files\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (..\Src\font_show.h)(0x5D33041E)
+I (..\Src\Buzzer.h)(0x5DB9748D)
+I (..\Src\touch.h)(0x5D9DA4EF)
+I (..\Src\Rrtc.h)(0x5DBD7F2F)
+I (..\Src\irq.h)(0x5D9AFC93)
+I (..\Src\Game_Snake.h)(0x5D9B73F5)
+I (..\Src\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\Src\Boot_test.h)(0x5DAED96E)
+I (..\Src\Time_IRQ.h)(0x5DB4152D)
+I (..\Src\dht11.h)(0x5DAE8951)
+I (..\Src\usart1.h)(0x5DBDCAA4)
+I (..\Src\flash.h)(0x5D1324E5)
+I (..\Src\malloc.h)(0x5CA959D0)
+I (..\Src\music.h)(0x5DBC3319)
+I (..\Src\sd.h)(0x5D1320AD)
+I (..\Src\ff.h)(0x5CC2F89C)
+I (..\Src\integer.h)(0x55EA74C2)
+I (..\Src\ffconf.h)(0x5D131F1D)
+I (..\Src\fatfs_app.h)(0x57F72650)
+I (..\Src\mp3player.h)(0x583CFE18)
+I (..\Src\My_Function.h)(0x5DBD7CAA)
+I (..\Src\My_view.h)(0x5DBB8456)
+I (..\Src\picture.h)(0x5DBC3059)
+I (..\Src\KeyBoard.h)(0x5DBCFD6C)
+I (C:\Program Files\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (..\Src\My_Music.h)(0x5DBE3B80)
+I (..\Src\colock.h)(0x5DBCFDF1)
+F (..\Src\My_Init.h)(0x5DBA8ED1)()
+F (..\Src\My_Function.c)(0x5DBE7B53)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"-DSTM32F10X_HD_VL-o ..\output\my_function.o --omf_browse ..\output\my_function.crf --depend ..\output\my_function.d)
+I (..\Src\My_Function.h)(0x5DBD7CAA)
+I (..\Src\My_view.h)(0x5DBB8456)
+I (..\Src\tftlcd.h)(0x5DBB922D)
+I (..\Src\IncludeAll.h)(0x5D7F1186)
+I (..\Src\stm32f10x.h)(0x5D73A835)
+I (C:\Program Files\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Program Files\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Program Files\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\Src\system.h)(0x5D85E4E6)
+I (..\Src\Systick.h)(0x5D77BCE2)
+I (..\Src\ascii.h)(0x5CD54682)
+I (..\Src\stm32f10x_rcc.h)(0x5C973A2D)
+I (..\Src\stm32f10x_gpio.h)(0x559784E2)
+I (..\Src\stm32f10x_fsmc.h)(0x5C973A0F)
+I (..\Src\font.h)(0x5DAF2394)
+I (C:\Program Files\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (..\Src\font_show.h)(0x5D33041E)
+I (..\Src\picture.h)(0x5DBC3059)
+I (..\Src\KeyBoard.h)(0x5DBCFD6C)
+I (..\Src\touch.h)(0x5D9DA4EF)
+I (C:\Program Files\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (..\Src\My_Music.h)(0x5DBE3B80)
+I (..\Src\Time_IRQ.h)(0x5DB4152D)
+I (..\Src\Irq.h)(0x5D9AFC93)
+I (..\Src\Game_Snake.h)(0x5D9B73F5)
+I (..\Src\LED.h)(0x5DBD361E)
+I (..\Src\Rrtc.h)(0x5DBD7F2F)
+I (..\Src\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\Src\music.h)(0x5DBC3319)
+I (..\Src\sd.h)(0x5D1320AD)
+I (..\Src\ff.h)(0x5CC2F89C)
+I (..\Src\integer.h)(0x55EA74C2)
+I (..\Src\ffconf.h)(0x5D131F1D)
+I (..\Src\fatfs_app.h)(0x57F72650)
+I (..\Src\mp3player.h)(0x583CFE18)
+I (..\Src\colock.h)(0x5DBCFDF1)
+I (..\Src\Buzzer.h)(0x5DB9748D)
+I (..\Src\My_Init.h)(0x5DBA8ED1)
+I (..\Src\System_Init.h)(0x5D7F1186)
+I (..\Src\Boot_test.h)(0x5DAED96E)
+I (..\Src\dht11.h)(0x5DAE8951)
+I (..\Src\usart1.h)(0x5DBDCAA4)
+I (..\Src\flash.h)(0x5D1324E5)
+I (..\Src\malloc.h)(0x5CA959D0)
+F (..\Src\My_Function.h)(0x5DBD7CAA)()
+F (..\Src\colock.h)(0x5DBCFDF1)()
+F (..\Src\colock.c)(0x5DBE7916)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"-DSTM32F10X_HD_VL-o ..\output\colock.o --omf_browse ..\output\colock.crf --depend ..\output\colock.d)
+I (..\Src\colock.h)(0x5DBCFDF1)
+I (..\Src\My_view.h)(0x5DBB8456)
+I (..\Src\tftlcd.h)(0x5DBB922D)
+I (..\Src\IncludeAll.h)(0x5D7F1186)
+I (..\Src\stm32f10x.h)(0x5D73A835)
+I (C:\Program Files\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Program Files\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Program Files\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\Src\system.h)(0x5D85E4E6)
+I (..\Src\Systick.h)(0x5D77BCE2)
+I (..\Src\ascii.h)(0x5CD54682)
+I (..\Src\stm32f10x_rcc.h)(0x5C973A2D)
+I (..\Src\stm32f10x_gpio.h)(0x559784E2)
+I (..\Src\stm32f10x_fsmc.h)(0x5C973A0F)
+I (..\Src\font.h)(0x5DAF2394)
+I (C:\Program Files\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (..\Src\font_show.h)(0x5D33041E)
+I (..\Src\picture.h)(0x5DBC3059)
+I (..\Src\KeyBoard.h)(0x5DBCFD6C)
+I (..\Src\touch.h)(0x5D9DA4EF)
+I (C:\Program Files\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (..\Src\My_Music.h)(0x5DBE3B80)
+I (..\Src\Time_IRQ.h)(0x5DB4152D)
+I (..\Src\Irq.h)(0x5D9AFC93)
+I (..\Src\Game_Snake.h)(0x5D9B73F5)
+I (..\Src\LED.h)(0x5DBD361E)
+I (..\Src\Rrtc.h)(0x5DBD7F2F)
+I (..\Src\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\Src\My_Function.h)(0x5DBD7CAA)
+I (..\Src\My_Init.h)(0x5DBA8ED1)
+I (..\Src\System_Init.h)(0x5D7F1186)
+I (..\Src\Buzzer.h)(0x5DB9748D)
+I (..\Src\Boot_test.h)(0x5DAED96E)
+I (..\Src\dht11.h)(0x5DAE8951)
+I (..\Src\usart1.h)(0x5DBDCAA4)
+I (..\Src\flash.h)(0x5D1324E5)
+I (..\Src\malloc.h)(0x5CA959D0)
+I (..\Src\music.h)(0x5DBC3319)
+I (..\Src\sd.h)(0x5D1320AD)
+I (..\Src\ff.h)(0x5CC2F89C)
+I (..\Src\integer.h)(0x55EA74C2)
+I (..\Src\ffconf.h)(0x5D131F1D)
+I (..\Src\fatfs_app.h)(0x57F72650)
+I (..\Src\mp3player.h)(0x583CFE18)
+F (..\Src\My_Music.c)(0x5DBE7E4F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"-DSTM32F10X_HD_VL-o ..\output\my_music.o --omf_browse ..\output\my_music.crf --depend ..\output\my_music.d)
+I (..\Src\My_Music.h)(0x5DBE3B80)
+I (..\Src\My_view.h)(0x5DBB8456)
+I (..\Src\tftlcd.h)(0x5DBB922D)
+I (..\Src\IncludeAll.h)(0x5D7F1186)
+I (..\Src\stm32f10x.h)(0x5D73A835)
+I (C:\Program Files\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Program Files\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Program Files\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\Src\system.h)(0x5D85E4E6)
+I (..\Src\Systick.h)(0x5D77BCE2)
+I (..\Src\ascii.h)(0x5CD54682)
+I (..\Src\stm32f10x_rcc.h)(0x5C973A2D)
+I (..\Src\stm32f10x_gpio.h)(0x559784E2)
+I (..\Src\stm32f10x_fsmc.h)(0x5C973A0F)
+I (..\Src\font.h)(0x5DAF2394)
+I (C:\Program Files\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (..\Src\font_show.h)(0x5D33041E)
+I (..\Src\picture.h)(0x5DBC3059)
+I (..\Src\KeyBoard.h)(0x5DBCFD6C)
+I (..\Src\touch.h)(0x5D9DA4EF)
+I (C:\Program Files\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (..\Src\Rrtc.h)(0x5DBD7F2F)
+I (..\Src\irq.h)(0x5D9AFC93)
+I (..\Src\Game_Snake.h)(0x5D9B73F5)
+I (..\Src\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\Src\colock.h)(0x5DBCFDF1)
+I (..\Src\Time_IRQ.h)(0x5DB4152D)
+I (..\Src\LED.h)(0x5DBD361E)
+I (..\Src\Buzzer.h)(0x5DB9748D)
+I (..\Src\My_Function.h)(0x5DBD7CAA)
+I (..\Src\My_Init.h)(0x5DBA8ED1)
+I (..\Src\System_Init.h)(0x5D7F1186)
+I (..\Src\Boot_test.h)(0x5DAED96E)
+I (..\Src\dht11.h)(0x5DAE8951)
+I (..\Src\usart1.h)(0x5DBDCAA4)
+I (..\Src\flash.h)(0x5D1324E5)
+I (..\Src\malloc.h)(0x5CA959D0)
+I (..\Src\music.h)(0x5DBC3319)
+I (..\Src\sd.h)(0x5D1320AD)
+I (..\Src\ff.h)(0x5CC2F89C)
+I (..\Src\integer.h)(0x55EA74C2)
+I (..\Src\ffconf.h)(0x5D131F1D)
+I (..\Src\fatfs_app.h)(0x57F72650)
+I (..\Src\mp3player.h)(0x583CFE18)
+F (..\Src\My_Music.h)(0x5DBE3B80)()
+F (..\Src\System_Init.h)(0x5D7F1186)()
+F (..\Src\System_Init.c)(0x5DA9B54B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"-DSTM32F10X_HD_VL-o ..\output\system_init.o --omf_browse ..\output\system_init.crf --depend ..\output\system_init.d)
+I (..\Src\System_Init.h)(0x5D7F1186)
+I (..\Src\stm32f10x.h)(0x5D73A835)
+I (C:\Program Files\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Program Files\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Program Files\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+F (..\Src\Game_Snake.c)(0x5D9DB110)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"-DSTM32F10X_HD_VL-o ..\output\game_snake.o --omf_browse ..\output\game_snake.crf --depend ..\output\game_snake.d)
+I (..\Src\Game_Snake.h)(0x5D9B73F5)
+I (..\Src\tftlcd.h)(0x5DBB922D)
+I (..\Src\IncludeAll.h)(0x5D7F1186)
+I (..\Src\stm32f10x.h)(0x5D73A835)
+I (C:\Program Files\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Program Files\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Program Files\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\Src\system.h)(0x5D85E4E6)
+I (..\Src\Systick.h)(0x5D77BCE2)
+I (..\Src\ascii.h)(0x5CD54682)
+I (..\Src\stm32f10x_rcc.h)(0x5C973A2D)
+I (..\Src\stm32f10x_gpio.h)(0x559784E2)
+I (..\Src\stm32f10x_fsmc.h)(0x5C973A0F)
+I (..\Src\font.h)(0x5DAF2394)
+I (C:\Program Files\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (..\Src\font_show.h)(0x5D33041E)
+F (..\Src\stm32f10x.h)(0x5D73A835)()
+F (..\Src\system.h)(0x5D85E4E6)()
+F (..\Src\SysTick.c)(0x5D77BCE1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"-DSTM32F10X_HD_VL-o ..\output\systick.o --omf_browse ..\output\systick.crf --depend ..\output\systick.d)
+I (..\Src\SysTick.h)(0x5D77BCE2)
+I (..\Src\system.h)(0x5D85E4E6)
+I (..\Src\stm32f10x.h)(0x5D73A835)
+I (C:\Program Files\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Program Files\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Program Files\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+F (..\Src\SysTick.h)(0x5D77BCE2)()
+F (..\Src\ascii.c)(0x5CD54683)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"-DSTM32F10X_HD_VL-o ..\output\ascii.o --omf_browse ..\output\ascii.crf --depend ..\output\ascii.d)
+I (..\Src\ascii.h)(0x5CD54682)
+F (..\Src\ascii.h)(0x5CD54682)()
+F (..\Src\font.c)(0x5DAF2394)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"-DSTM32F10X_HD_VL-o ..\output\font.o --omf_browse ..\output\font.crf --depend ..\output\font.d)
+I (..\Src\font.h)(0x5DAF2394)
+F (..\Src\tftlcd.h)(0x5DBB922D)()
+F (..\Src\tftlcd.c)(0x5DB5B2B4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"-DSTM32F10X_HD_VL-o ..\output\tftlcd.o --omf_browse ..\output\tftlcd.crf --depend ..\output\tftlcd.d)
+I (..\Src\tftlcd.h)(0x5DBB922D)
+I (..\Src\IncludeAll.h)(0x5D7F1186)
+I (..\Src\stm32f10x.h)(0x5D73A835)
+I (C:\Program Files\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Program Files\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Program Files\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\Src\system.h)(0x5D85E4E6)
+I (..\Src\Systick.h)(0x5D77BCE2)
+I (..\Src\ascii.h)(0x5CD54682)
+I (..\Src\stm32f10x_rcc.h)(0x5C973A2D)
+I (..\Src\stm32f10x_gpio.h)(0x559784E2)
+I (..\Src\stm32f10x_fsmc.h)(0x5C973A0F)
+I (..\Src\font.h)(0x5DAF2394)
+I (C:\Program Files\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (..\Src\font_show.h)(0x5D33041E)
+F (..\Src\stm32f10x_rcc.h)(0x5C973A2D)()
+F (..\Src\stm32f10x_rcc.c)(0x5CD29A7F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"-DSTM32F10X_HD_VL-o ..\output\stm32f10x_rcc.o --omf_browse ..\output\stm32f10x_rcc.crf --depend ..\output\stm32f10x_rcc.d)
+I (..\Src\stm32f10x_rcc.h)(0x5C973A2D)
+I (..\Src\stm32f10x.h)(0x5D73A835)
+I (C:\Program Files\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Program Files\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Program Files\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+F (..\Src\stm32f10x_gpio.h)(0x559784E2)()
+F (..\Src\stm32f10x_gpio.c)(0x559784E2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"-DSTM32F10X_HD_VL-o ..\output\stm32f10x_gpio.o --omf_browse ..\output\stm32f10x_gpio.crf --depend ..\output\stm32f10x_gpio.d)
+I (..\Src\stm32f10x_gpio.h)(0x559784E2)
+I (..\Src\stm32f10x.h)(0x5D73A835)
+I (C:\Program Files\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Program Files\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Program Files\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\Src\stm32f10x_rcc.h)(0x5C973A2D)
+F (..\Src\stm32f10x_fsmc.h)(0x5C973A0F)()
+F (..\Src\font.h)(0x5DAF2394)()
+F (..\Src\stm32f10x_fsmc.c)(0x559784E2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"-DSTM32F10X_HD_VL-o ..\output\stm32f10x_fsmc.o --omf_browse ..\output\stm32f10x_fsmc.crf --depend ..\output\stm32f10x_fsmc.d)
+I (..\Src\stm32f10x_fsmc.h)(0x5C973A0F)
+I (..\Src\stm32f10x.h)(0x5D73A835)
+I (C:\Program Files\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Program Files\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Program Files\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\Src\stm32f10x_rcc.h)(0x5C973A2D)
+F (..\Src\Irq.c)(0x5DA0AFB8)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"-DSTM32F10X_HD_VL-o ..\output\irq.o --omf_browse ..\output\irq.crf --depend ..\output\irq.d)
+I (..\Src\Irq.h)(0x5D9AFC93)
+I (..\Src\stm32f10x.h)(0x5D73A835)
+I (C:\Program Files\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Program Files\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Program Files\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\Src\Game_Snake.h)(0x5D9B73F5)
+I (..\Src\tftlcd.h)(0x5DBB922D)
+I (..\Src\IncludeAll.h)(0x5D7F1186)
+I (..\Src\system.h)(0x5D85E4E6)
+I (..\Src\Systick.h)(0x5D77BCE2)
+I (..\Src\ascii.h)(0x5CD54682)
+I (..\Src\stm32f10x_rcc.h)(0x5C973A2D)
+I (..\Src\stm32f10x_gpio.h)(0x559784E2)
+I (..\Src\stm32f10x_fsmc.h)(0x5C973A0F)
+I (..\Src\font.h)(0x5DAF2394)
+I (C:\Program Files\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (..\Src\font_show.h)(0x5D33041E)
+F (..\Src\Irq.h)(0x5D9AFC93)()
+F (..\Src\24cxx.c)(0x58282618)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"-DSTM32F10X_HD_VL-o ..\output\24cxx.o --omf_browse ..\output\24cxx.crf --depend ..\output\24cxx.d)
+I (..\Src\24cxx.h)(0x5CEF9281)
+I (..\Src\system.h)(0x5D85E4E6)
+I (..\Src\stm32f10x.h)(0x5D73A835)
+I (C:\Program Files\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Program Files\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Program Files\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\Src\iic.h)(0x58D4CAC2)
+I (..\Src\SysTick.h)(0x5D77BCE2)
+F (..\Src\iic.c)(0x5CEF880B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"-DSTM32F10X_HD_VL-o ..\output\iic.o --omf_browse ..\output\iic.crf --depend ..\output\iic.d)
+I (..\Src\iic.h)(0x58D4CAC2)
+I (..\Src\system.h)(0x5D85E4E6)
+I (..\Src\stm32f10x.h)(0x5D73A835)
+I (C:\Program Files\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Program Files\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Program Files\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\Src\SysTick.h)(0x5D77BCE2)
+I (..\Src\stm32f10x_gpio.h)(0x559784E2)
+I (..\Src\stm32f10x_rcc.h)(0x5C973A2D)
+F (..\Src\spi.c)(0x5CEF85DB)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"-DSTM32F10X_HD_VL-o ..\output\spi.o --omf_browse ..\output\spi.crf --depend ..\output\spi.d)
+I (..\Src\spi.h)(0x5CEF85DB)
+I (..\Src\system.h)(0x5D85E4E6)
+I (..\Src\stm32f10x.h)(0x5D73A835)
+I (C:\Program Files\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Program Files\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Program Files\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\Src\stm32f10x_gpio.h)(0x559784E2)
+I (..\Src\stm32f10x_rcc.h)(0x5C973A2D)
+I (..\Src\stm32f10x_spi.h)(0x4D783BB4)
+F (..\Src\stm32f10x_spi.c)(0x5CEF8F9A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"-DSTM32F10X_HD_VL-o ..\output\stm32f10x_spi.o --omf_browse ..\output\stm32f10x_spi.crf --depend ..\output\stm32f10x_spi.d)
+I (..\Src\stm32f10x_spi.h)(0x4D783BB4)
+I (..\Src\stm32f10x.h)(0x5D73A835)
+I (C:\Program Files\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Program Files\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Program Files\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\Src\stm32f10x_rcc.h)(0x5C973A2D)
+F (..\Src\touch.c)(0x5DBA4807)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"-DSTM32F10X_HD_VL-o ..\output\touch.o --omf_browse ..\output\touch.crf --depend ..\output\touch.d)
+I (..\Src\touch.h)(0x5D9DA4EF)
+I (..\Src\system.h)(0x5D85E4E6)
+I (..\Src\stm32f10x.h)(0x5D73A835)
+I (C:\Program Files\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Program Files\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Program Files\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\Src\tftlcd.h)(0x5DBB922D)
+I (..\Src\IncludeAll.h)(0x5D7F1186)
+I (..\Src\Systick.h)(0x5D77BCE2)
+I (..\Src\ascii.h)(0x5CD54682)
+I (..\Src\stm32f10x_rcc.h)(0x5C973A2D)
+I (..\Src\stm32f10x_gpio.h)(0x559784E2)
+I (..\Src\stm32f10x_fsmc.h)(0x5C973A0F)
+I (..\Src\font.h)(0x5DAF2394)
+I (C:\Program Files\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (..\Src\font_show.h)(0x5D33041E)
+I (..\Src\24cxx.h)(0x5CEF9281)
+I (..\Src\iic.h)(0x58D4CAC2)
+I (..\Src\spi.h)(0x5CEF85DB)
+I (..\Src\stm32f10x_spi.h)(0x4D783BB4)
+F (..\Src\touch.h)(0x5D9DA4EF)()
+F (..\Src\stm32f10x_spi.h)(0x4D783BB4)()
+F (..\Src\spi.h)(0x5CEF85DB)()
+F (..\Src\iic.h)(0x58D4CAC2)()
+F (..\Src\24cxx.h)(0x5CEF9281)()
+F (..\Src\Time_IRQ.c)(0x5DB4152D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"-DSTM32F10X_HD_VL-o ..\output\time_irq.o --omf_browse ..\output\time_irq.crf --depend ..\output\time_irq.d)
+I (..\Src\Time_IRQ.h)(0x5DB4152D)
+I (..\Src\stm32f10x.h)(0x5D73A835)
+I (C:\Program Files\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Program Files\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Program Files\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\Src\Irq.h)(0x5D9AFC93)
+I (..\Src\Game_Snake.h)(0x5D9B73F5)
+I (..\Src\tftlcd.h)(0x5DBB922D)
+I (..\Src\IncludeAll.h)(0x5D7F1186)
+I (..\Src\system.h)(0x5D85E4E6)
+I (..\Src\Systick.h)(0x5D77BCE2)
+I (..\Src\ascii.h)(0x5CD54682)
+I (..\Src\stm32f10x_rcc.h)(0x5C973A2D)
+I (..\Src\stm32f10x_gpio.h)(0x559784E2)
+I (..\Src\stm32f10x_fsmc.h)(0x5C973A0F)
+I (..\Src\font.h)(0x5DAF2394)
+I (C:\Program Files\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (..\Src\font_show.h)(0x5D33041E)
+F (..\Src\Time_IRQ.h)(0x5DB4152D)()
+F (..\Src\usart1.c)(0x5DBEC111)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"-DSTM32F10X_HD_VL-o ..\output\usart1.o --omf_browse ..\output\usart1.crf --depend ..\output\usart1.d)
+I (..\Src\usart1.h)(0x5DBDCAA4)
+I (C:\Program Files\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (..\Src\irq.h)(0x5D9AFC93)
+I (..\Src\stm32f10x.h)(0x5D73A835)
+I (C:\Program Files\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Program Files\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Program Files\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\Src\Game_Snake.h)(0x5D9B73F5)
+I (..\Src\tftlcd.h)(0x5DBB922D)
+I (..\Src\IncludeAll.h)(0x5D7F1186)
+I (..\Src\system.h)(0x5D85E4E6)
+I (..\Src\Systick.h)(0x5D77BCE2)
+I (..\Src\ascii.h)(0x5CD54682)
+I (..\Src\stm32f10x_rcc.h)(0x5C973A2D)
+I (..\Src\stm32f10x_gpio.h)(0x559784E2)
+I (..\Src\stm32f10x_fsmc.h)(0x5C973A0F)
+I (..\Src\font.h)(0x5DAF2394)
+I (..\Src\font_show.h)(0x5D33041E)
+I (..\Src\LED.h)(0x5DBD361E)
+I (..\Src\My_Function.h)(0x5DBD7CAA)
+I (..\Src\My_view.h)(0x5DBB8456)
+I (..\Src\picture.h)(0x5DBC3059)
+I (..\Src\KeyBoard.h)(0x5DBCFD6C)
+I (..\Src\touch.h)(0x5D9DA4EF)
+I (C:\Program Files\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (..\Src\My_Music.h)(0x5DBE3B80)
+I (..\Src\Time_IRQ.h)(0x5DB4152D)
+I (..\Src\Rrtc.h)(0x5DBD7F2F)
+I (..\Src\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\Src\music.h)(0x5DBC3319)
+I (..\Src\sd.h)(0x5D1320AD)
+I (..\Src\ff.h)(0x5CC2F89C)
+I (..\Src\integer.h)(0x55EA74C2)
+I (..\Src\ffconf.h)(0x5D131F1D)
+I (..\Src\fatfs_app.h)(0x57F72650)
+I (..\Src\mp3player.h)(0x583CFE18)
+I (..\Src\colock.h)(0x5DBCFDF1)
+I (..\Src\Buzzer.h)(0x5DB9748D)
+I (..\Src\My_Init.h)(0x5DBA8ED1)
+I (..\Src\System_Init.h)(0x5D7F1186)
+I (..\Src\Boot_test.h)(0x5DAED96E)
+I (..\Src\dht11.h)(0x5DAE8951)
+I (..\Src\flash.h)(0x5D1324E5)
+I (..\Src\malloc.h)(0x5CA959D0)
+I (C:\Program Files\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+F (..\Src\usart1.h)(0x5DBDCAA4)()
+F (..\Src\Rrtc.c)(0x5DBD7E40)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"-DSTM32F10X_HD_VL-o ..\output\rrtc.o --omf_browse ..\output\rrtc.crf --depend ..\output\rrtc.d)
+I (..\Src\Rrtc.h)(0x5DBD7F2F)
+I (..\Src\stm32f10x.h)(0x5D73A835)
+I (C:\Program Files\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Program Files\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Program Files\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\Src\irq.h)(0x5D9AFC93)
+I (..\Src\Game_Snake.h)(0x5D9B73F5)
+I (..\Src\tftlcd.h)(0x5DBB922D)
+I (..\Src\IncludeAll.h)(0x5D7F1186)
+I (..\Src\system.h)(0x5D85E4E6)
+I (..\Src\Systick.h)(0x5D77BCE2)
+I (..\Src\ascii.h)(0x5CD54682)
+I (..\Src\stm32f10x_rcc.h)(0x5C973A2D)
+I (..\Src\stm32f10x_gpio.h)(0x559784E2)
+I (..\Src\stm32f10x_fsmc.h)(0x5C973A0F)
+I (..\Src\font.h)(0x5DAF2394)
+I (C:\Program Files\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (..\Src\font_show.h)(0x5D33041E)
+I (..\Src\stm32f10x_rtc.h)(0x4D783BB4)
+F (..\Src\Rrtc.h)(0x5DBD7F2F)()
+F (..\Src\stm32f10x_conf.h)(0x5CF8B40D)()
+F (..\Src\stm32f10x_rtc.c)(0x5CFF8471)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"-DSTM32F10X_HD_VL-o ..\output\stm32f10x_rtc.o --omf_browse ..\output\stm32f10x_rtc.crf --depend ..\output\stm32f10x_rtc.d)
+I (..\Src\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\Src\stm32f10x.h)(0x5D73A835)
+I (C:\Program Files\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Program Files\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Program Files\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\Src\stm32f10x_conf.h)(0x5CF8B40D)
+F (..\Src\stm32f10x_rtc.h)(0x4D783BB4)()
+F (..\Src\dht11.c)(0x5DBD3C72)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"-DSTM32F10X_HD_VL-o ..\output\dht11.o --omf_browse ..\output\dht11.crf --depend ..\output\dht11.d)
+I (..\Src\dht11.h)(0x5DAE8951)
+I (..\Src\stm32f10x.h)(0x5D73A835)
+I (C:\Program Files\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Program Files\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Program Files\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\Src\font_show.h)(0x5D33041E)
+I (..\Src\system.h)(0x5D85E4E6)
+I (..\Src\SysTick.h)(0x5D77BCE2)
+I (C:\Program Files\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (..\Src\usart1.h)(0x5DBDCAA4)
+I (C:\Program Files\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (..\Src\irq.h)(0x5D9AFC93)
+I (..\Src\Game_Snake.h)(0x5D9B73F5)
+I (..\Src\tftlcd.h)(0x5DBB922D)
+I (..\Src\IncludeAll.h)(0x5D7F1186)
+I (..\Src\ascii.h)(0x5CD54682)
+I (..\Src\stm32f10x_rcc.h)(0x5C973A2D)
+I (..\Src\stm32f10x_gpio.h)(0x559784E2)
+I (..\Src\stm32f10x_fsmc.h)(0x5C973A0F)
+I (..\Src\font.h)(0x5DAF2394)
+I (..\Src\LED.h)(0x5DBD361E)
+I (..\Src\My_Function.h)(0x5DBD7CAA)
+I (..\Src\My_view.h)(0x5DBB8456)
+I (..\Src\picture.h)(0x5DBC3059)
+I (..\Src\KeyBoard.h)(0x5DBCFD6C)
+I (..\Src\touch.h)(0x5D9DA4EF)
+I (C:\Program Files\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (..\Src\My_Music.h)(0x5DBE3B80)
+I (..\Src\Time_IRQ.h)(0x5DB4152D)
+I (..\Src\Rrtc.h)(0x5DBD7F2F)
+I (..\Src\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\Src\music.h)(0x5DBC3319)
+I (..\Src\sd.h)(0x5D1320AD)
+I (..\Src\ff.h)(0x5CC2F89C)
+I (..\Src\integer.h)(0x55EA74C2)
+I (..\Src\ffconf.h)(0x5D131F1D)
+I (..\Src\fatfs_app.h)(0x57F72650)
+I (..\Src\mp3player.h)(0x583CFE18)
+I (..\Src\colock.h)(0x5DBCFDF1)
+I (..\Src\Buzzer.h)(0x5DB9748D)
+I (..\Src\My_Init.h)(0x5DBA8ED1)
+I (..\Src\System_Init.h)(0x5D7F1186)
+I (..\Src\Boot_test.h)(0x5DAED96E)
+I (..\Src\flash.h)(0x5D1324E5)
+I (..\Src\malloc.h)(0x5CA959D0)
+F (..\Src\dht11.h)(0x5DAE8951)()
+F (..\Src\cc936.c)(0x5D132A70)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"-DSTM32F10X_HD_VL-o ..\output\cc936.o --omf_browse ..\output\cc936.crf --depend ..\output\cc936.d)
+I (..\Src\ff.h)(0x5CC2F89C)
+I (..\Src\integer.h)(0x55EA74C2)
+I (..\Src\ffconf.h)(0x5D131F1D)
+F (..\Src\diskio.c)(0x58D632F2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"-DSTM32F10X_HD_VL-o ..\output\diskio.o --omf_browse ..\output\diskio.crf --depend ..\output\diskio.d)
+I (..\Src\diskio.h)(0x55EA74C2)
+I (..\Src\integer.h)(0x55EA74C2)
+I (..\Src\sd.h)(0x5D1320AD)
+I (..\Src\system.h)(0x5D85E4E6)
+I (..\Src\stm32f10x.h)(0x5D73A835)
+I (C:\Program Files\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Program Files\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Program Files\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\Src\flash.h)(0x5D1324E5)
+I (..\Src\malloc.h)(0x5CA959D0)
+F (..\Src\diskio.h)(0x55EA74C2)()
+F (..\Src\fatfs_app.c)(0x5D132242)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"-DSTM32F10X_HD_VL-o ..\output\fatfs_app.o --omf_browse ..\output\fatfs_app.crf --depend ..\output\fatfs_app.d)
+I (..\Src\fatfs_app.h)(0x57F72650)
+I (..\Src\system.h)(0x5D85E4E6)
+I (..\Src\stm32f10x.h)(0x5D73A835)
+I (C:\Program Files\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Program Files\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Program Files\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\Src\ff.h)(0x5CC2F89C)
+I (..\Src\integer.h)(0x55EA74C2)
+I (..\Src\ffconf.h)(0x5D131F1D)
+I (..\Src\malloc.h)(0x5CA959D0)
+I (C:\Program Files\ARM\ARMCC\include\string.h)(0x51C7C554)
+F (..\Src\fatfs_app.h)(0x57F72650)()
+F (..\Src\ff.c)(0x5DBDB620)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"-DSTM32F10X_HD_VL-o ..\output\ff.o --omf_browse ..\output\ff.crf --depend ..\output\ff.d)
+I (..\Src\ff.h)(0x5CC2F89C)
+I (..\Src\integer.h)(0x55EA74C2)
+I (..\Src\ffconf.h)(0x5D131F1D)
+I (..\Src\diskio.h)(0x55EA74C2)
+I (C:\Program Files\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+F (..\Src\ff.h)(0x5CC2F89C)()
+F (..\Src\ffconf.h)(0x5D131F1D)()
+F (..\Src\flash.c)(0x5DA9B01B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"-DSTM32F10X_HD_VL-o ..\output\flash.o --omf_browse ..\output\flash.crf --depend ..\output\flash.d)
+I (..\Src\flash.h)(0x5D1324E5)
+I (..\Src\system.h)(0x5D85E4E6)
+I (..\Src\stm32f10x.h)(0x5D73A835)
+I (C:\Program Files\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Program Files\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Program Files\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\Src\spi.h)(0x5CEF85DB)
+I (..\Src\SysTick.h)(0x5D77BCE2)
+I (..\Src\usart1.h)(0x5DBDCAA4)
+I (C:\Program Files\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (..\Src\irq.h)(0x5D9AFC93)
+I (..\Src\Game_Snake.h)(0x5D9B73F5)
+I (..\Src\tftlcd.h)(0x5DBB922D)
+I (..\Src\IncludeAll.h)(0x5D7F1186)
+I (..\Src\ascii.h)(0x5CD54682)
+I (..\Src\stm32f10x_rcc.h)(0x5C973A2D)
+I (..\Src\stm32f10x_gpio.h)(0x559784E2)
+I (..\Src\stm32f10x_fsmc.h)(0x5C973A0F)
+I (..\Src\font.h)(0x5DAF2394)
+I (..\Src\font_show.h)(0x5D33041E)
+I (..\Src\LED.h)(0x5DBD361E)
+F (..\Src\flash.h)(0x5D1324E5)()
+F (..\Src\integer.h)(0x55EA74C2)()
+F (..\Src\malloc.c)(0x5CA959D0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"-DSTM32F10X_HD_VL-o ..\output\malloc.o --omf_browse ..\output\malloc.crf --depend ..\output\malloc.d)
+I (..\Src\malloc.h)(0x5CA959D0)
+I (..\Src\system.h)(0x5D85E4E6)
+I (..\Src\stm32f10x.h)(0x5D73A835)
+I (C:\Program Files\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Program Files\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Program Files\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+F (..\Src\malloc.h)(0x5CA959D0)()
+F (..\Src\mp3player.c)(0x5DBDB621)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"-DSTM32F10X_HD_VL-o ..\output\mp3player.o --omf_browse ..\output\mp3player.crf --depend ..\output\mp3player.d)
+I (..\Src\mp3player.h)(0x583CFE18)
+I (..\Src\system.h)(0x5D85E4E6)
+I (..\Src\stm32f10x.h)(0x5D73A835)
+I (C:\Program Files\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Program Files\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Program Files\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\Src\ff.h)(0x5CC2F89C)
+I (..\Src\integer.h)(0x55EA74C2)
+I (..\Src\ffconf.h)(0x5D131F1D)
+I (..\Src\vs10xx.h)(0x583CFD5A)
+I (..\Src\spi.h)(0x5CEF85DB)
+I (..\Src\led.h)(0x5DBD361E)
+I (..\Src\SysTick.h)(0x5D77BCE2)
+I (..\Src\tftlcd.h)(0x5DBB922D)
+I (..\Src\IncludeAll.h)(0x5D7F1186)
+I (..\Src\ascii.h)(0x5CD54682)
+I (..\Src\stm32f10x_rcc.h)(0x5C973A2D)
+I (..\Src\stm32f10x_gpio.h)(0x559784E2)
+I (..\Src\stm32f10x_fsmc.h)(0x5C973A0F)
+I (..\Src\font.h)(0x5DAF2394)
+I (C:\Program Files\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (..\Src\font_show.h)(0x5D33041E)
+I (..\Src\My_Function.h)(0x5DBD7CAA)
+I (..\Src\My_view.h)(0x5DBB8456)
+I (..\Src\picture.h)(0x5DBC3059)
+I (..\Src\KeyBoard.h)(0x5DBCFD6C)
+I (..\Src\touch.h)(0x5D9DA4EF)
+I (C:\Program Files\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (..\Src\My_Music.h)(0x5DBE3B80)
+I (..\Src\Time_IRQ.h)(0x5DB4152D)
+I (..\Src\Irq.h)(0x5D9AFC93)
+I (..\Src\Game_Snake.h)(0x5D9B73F5)
+I (..\Src\Rrtc.h)(0x5DBD7F2F)
+I (..\Src\stm32f10x_rtc.h)(0x4D783BB4)
+I (..\Src\music.h)(0x5DBC3319)
+I (..\Src\sd.h)(0x5D1320AD)
+I (..\Src\fatfs_app.h)(0x57F72650)
+I (..\Src\colock.h)(0x5DBCFDF1)
+I (..\Src\Buzzer.h)(0x5DB9748D)
+I (..\Src\My_Init.h)(0x5DBA8ED1)
+I (..\Src\System_Init.h)(0x5D7F1186)
+I (..\Src\Boot_test.h)(0x5DAED96E)
+I (..\Src\dht11.h)(0x5DAE8951)
+I (..\Src\usart1.h)(0x5DBDCAA4)
+I (..\Src\flash.h)(0x5D1324E5)
+I (..\Src\malloc.h)(0x5CA959D0)
+F (..\Src\mp3player.h)(0x583CFE18)()
+F (..\Src\music.c)(0x5DBC331C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"-DSTM32F10X_HD_VL-o ..\output\music.o --omf_browse ..\output\music.crf --depend ..\output\music.d)
+I (..\Src\music.h)(0x5DBC3319)
+I (..\Src\sd.h)(0x5D1320AD)
+I (..\Src\system.h)(0x5D85E4E6)
+I (..\Src\stm32f10x.h)(0x5D73A835)
+I (C:\Program Files\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Program Files\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Program Files\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\Src\ff.h)(0x5CC2F89C)
+I (..\Src\integer.h)(0x55EA74C2)
+I (..\Src\ffconf.h)(0x5D131F1D)
+I (..\Src\fatfs_app.h)(0x57F72650)
+I (..\Src\mp3player.h)(0x583CFE18)
+I (..\Src\tftlcd.h)(0x5DBB922D)
+I (..\Src\IncludeAll.h)(0x5D7F1186)
+I (..\Src\Systick.h)(0x5D77BCE2)
+I (..\Src\ascii.h)(0x5CD54682)
+I (..\Src\stm32f10x_rcc.h)(0x5C973A2D)
+I (..\Src\stm32f10x_gpio.h)(0x559784E2)
+I (..\Src\stm32f10x_fsmc.h)(0x5C973A0F)
+I (..\Src\font.h)(0x5DAF2394)
+I (C:\Program Files\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (..\Src\font_show.h)(0x5D33041E)
+I (C:\Program Files\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+F (..\Src\music.h)(0x5DBC3319)()
+F (..\Src\sd.c)(0x5DA9B0BC)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"-DSTM32F10X_HD_VL-o ..\output\sd.o --omf_browse ..\output\sd.crf --depend ..\output\sd.d)
+I (..\Src\sd.h)(0x5D1320AD)
+I (..\Src\system.h)(0x5D85E4E6)
+I (..\Src\stm32f10x.h)(0x5D73A835)
+I (C:\Program Files\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Program Files\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Program Files\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\Src\spi.h)(0x5CEF85DB)
+I (..\Src\usart1.h)(0x5DBDCAA4)
+I (C:\Program Files\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (..\Src\irq.h)(0x5D9AFC93)
+I (..\Src\Game_Snake.h)(0x5D9B73F5)
+I (..\Src\tftlcd.h)(0x5DBB922D)
+I (..\Src\IncludeAll.h)(0x5D7F1186)
+I (..\Src\Systick.h)(0x5D77BCE2)
+I (..\Src\ascii.h)(0x5CD54682)
+I (..\Src\stm32f10x_rcc.h)(0x5C973A2D)
+I (..\Src\stm32f10x_gpio.h)(0x559784E2)
+I (..\Src\stm32f10x_fsmc.h)(0x5C973A0F)
+I (..\Src\font.h)(0x5DAF2394)
+I (..\Src\font_show.h)(0x5D33041E)
+I (..\Src\LED.h)(0x5DBD361E)
+I (..\Src\stm32f10x_spi.h)(0x4D783BB4)
+F (..\Src\sd.h)(0x5D1320AD)()
+F (..\Src\stm32f10x_flash.c)(0x5D132ABC)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"-DSTM32F10X_HD_VL-o ..\output\stm32f10x_flash.o --omf_browse ..\output\stm32f10x_flash.crf --depend ..\output\stm32f10x_flash.d)
+I (..\Src\stm32f10x_flash.h)(0x4D783BB4)
+I (..\Src\stm32f10x.h)(0x5D73A835)
+I (C:\Program Files\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Program Files\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Program Files\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\Src\stm32f10x_conf.h)(0x5CF8B40D)
+F (..\Src\stm32f10x_flash.h)(0x4D783BB4)()
+F (..\Src\vs10xx.c)(0x5D142428)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"-DSTM32F10X_HD_VL-o ..\output\vs10xx.o --omf_browse ..\output\vs10xx.crf --depend ..\output\vs10xx.d)
+I (..\Src\vs10xx.h)(0x583CFD5A)
+I (..\Src\system.h)(0x5D85E4E6)
+I (..\Src\stm32f10x.h)(0x5D73A835)
+I (C:\Program Files\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Program Files\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Program Files\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\Src\SysTick.h)(0x5D77BCE2)
+I (..\Src\spi.h)(0x5CEF85DB)
+I (..\Src\stm32f10x_gpio.h)(0x559784E2)
+I (..\Src\stm32f10x_rcc.h)(0x5C973A2D)
+I (..\Src\stm32f10x_spi.h)(0x4D783BB4)
+F (..\Src\vs10xx.h)(0x583CFD5A)()
+F (..\Src\font_show.h)(0x5D33041E)()
+F (..\Src\font_show.c)(0x5DBB897F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"-DSTM32F10X_HD_VL-o ..\output\font_show.o --omf_browse ..\output\font_show.crf --depend ..\output\font_show.d)
+I (..\Src\font_show.h)(0x5D33041E)
+I (..\Src\system.h)(0x5D85E4E6)
+I (..\Src\stm32f10x.h)(0x5D73A835)
+I (C:\Program Files\ARM\CMSIS\Include\core_cm3.h)(0x532BF7C2)
+I (C:\Program Files\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmInstr.h)(0x532BF7C2)
+I (C:\Program Files\ARM\CMSIS\Include\core_cmFunc.h)(0x532BF7C2)
+I (C:\Program Files\ARM\Inc\ST\STM32F10x\system_stm32f10x.h)(0x532BF35A)
+I (..\Src\ff.h)(0x5CC2F89C)
+I (..\Src\integer.h)(0x55EA74C2)
+I (..\Src\ffconf.h)(0x5D131F1D)
+I (..\Src\flash.h)(0x5D1324E5)
+I (..\Src\tftlcd.h)(0x5DBB922D)
+I (..\Src\IncludeAll.h)(0x5D7F1186)
+I (..\Src\Systick.h)(0x5D77BCE2)
+I (..\Src\ascii.h)(0x5CD54682)
+I (..\Src\stm32f10x_rcc.h)(0x5C973A2D)
+I (..\Src\stm32f10x_gpio.h)(0x559784E2)
+I (..\Src\stm32f10x_fsmc.h)(0x5C973A0F)
+I (..\Src\font.h)(0x5DAF2394)
+I (C:\Program Files\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (..\Src\malloc.h)(0x5CA959D0)
+F (..\Src\picture.c)(0x5DBB7D32)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I "C:\Program Files\ARM\RV31\INC"-I "C:\Program Files\ARM\CMSIS\Include"-I "C:\Program Files\ARM\Inc\ST\STM32F10x"-DSTM32F10X_HD_VL-o ..\output\picture.o --omf_browse ..\output\picture.crf --depend ..\output\picture.d)
+I (..\Src\picture.h)(0x5DBC3059)
+F (..\Src\picture.h)(0x5DBC3059)()

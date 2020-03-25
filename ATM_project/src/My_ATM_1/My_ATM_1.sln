@@ -1,0 +1,10 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{059D6162-CD51-11D0-AE1F-00A0C90FFFC3}") = "My_ATM_1", "My_ATM_1.dsp", "{79976427-6EE1-4CCB-86CF-EF3D48F19B78}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

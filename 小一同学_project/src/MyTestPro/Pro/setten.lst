@@ -1,0 +1,67 @@
+
+
+
+ARM Macro Assembler    Page 1 
+
+
+    1 00000000                 EXPORT           SETTEN
+    2 00000000                 AREA             SetTen,CODE,READONLY
+    3 00000000         SETTEN
+    4 00000000 F04F 000A       MOV              R0,#10
+    5 00000004 F04F 5200       MOV              R2,#0x20000000
+    6 00000008 4B03            LDR              R3,=0x20000010
+    7 0000000A         LOOP
+    8 0000000A         
+    9 0000000A 429A            CMP              R2,R3
+   10 0000000C D002            BEQ              LOOPFINSH
+   11 0000000E F842 0B04       STR              R0,[R2],#4
+   12 00000012 E7FA            B                LOOP
+   13 00000014         LOOPFINSH
+   14 00000014 4770            BX               LR
+   15 00000016 BF00            NOP
+   16 00000018                 END
+              20000010 
+Command Line: --debug --xref --cpu=Cortex-M3 --apcs=interwork --depend=..\outpu
+t\setten.d -o..\output\setten.o -I"C:\Program Files\ARM\RV31\INC" -I"C:\Program
+ Files\ARM\CMSIS\Include" -I"C:\Program Files\ARM\Inc\ST\STM32F10x" --list=.\se
+tten.lst SetTen.s
+
+
+
+ARM Macro Assembler    Page 1 Alphabetic symbol ordering
+Relocatable symbols
+
+LOOP 0000000A
+
+Symbol: LOOP
+   Definitions
+      At line 7 in file SetTen.s
+   Uses
+      At line 12 in file SetTen.s
+Comment: LOOP used once
+LOOPFINSH 00000014
+
+Symbol: LOOPFINSH
+   Definitions
+      At line 13 in file SetTen.s
+   Uses
+      At line 10 in file SetTen.s
+Comment: LOOPFINSH used once
+SETTEN 00000000
+
+Symbol: SETTEN
+   Definitions
+      At line 3 in file SetTen.s
+   Uses
+      At line 1 in file SetTen.s
+Comment: SETTEN used once
+SetTen 00000000
+
+Symbol: SetTen
+   Definitions
+      At line 2 in file SetTen.s
+   Uses
+      None
+Comment: SetTen unused
+4 symbols
+336 symbols in table
